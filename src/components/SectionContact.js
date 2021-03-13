@@ -17,7 +17,7 @@ export default class SectionContact extends React.Component {
                 <p className="block-subtitle">
                   {htmlToReact(_.get(section, 'subtitle', null))}
                 </p>
-                )}kjkjkj
+                )}
               </div>
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content', null))}
